@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace SchoolLibrary {
+namespace BlazorClient.Models
+{
     public class Student {
         public string StudentId { get; set; }
 
